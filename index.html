@@ -12,18 +12,216 @@
 
 <body>
 
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>PBl</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
   <!-- Header Start -->
   <div class="container-fluid bg-primary mb-5">
-    <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+    <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 150px">
       <h3 class="display-3 font-weight-bold text-white">PBL</h3>
-      <div class="d-inline-flex text-white">
-        <p class="m-0"><a class="text-white" href="index.html">Home</a></p>
-        <p class="m-0 px-2">/</p>
-        <p class="m-0">PBL </p>
-      </div>
+      
     </div>
   </div>
   <!-- Header End -->
+
+  <!-- Detail Start -->
+  <div class="container py-5">
+    <div class="row pt-5">
+      <div class="col-lg-8">
+        <div class="d-flex flex-column text-left mb-3">
+          <p class="section-title pr-5">
+            <span class="pr-2">PBL Project</span>
+          </p>
+          <h1 class="mb-3">WATER QUALITY MONITORING SYSTEM</h1>
+          <div class="d-flex">
+            <p class="mr-3"><i class="fa fa-user text-primary"></i>Prapti Bargir,Arihant Bhamare and Nikhil Kolhe</p>
+            <p class="mr-3">
+              <i class="fa fa-folder text-primary"></i>WATER QUALITY MONITORING SYSTEM
+            </p>
+            <p class="mr-3"><i class="fa fa-comments text-primary"></i> 15</p>
+          </div>
+        </div>
+        <div class="mb-5">
+          <img class="img-fluid rounded w-100 mb-4" src="img/arduino.png" alt=" Image" />
+          <p>
+            Water is an essential element for the survival of mankind. Its variety of uses means that it is 
+            always in a constant state of demand. The supply of water most primarily comes from large
+            reservoirs of water such as lakes, streams, and the ocean itself. As such, it is good practice 
+            to monitor its quality to ensure it is fit for human consumption.
+            Current water quality monitoring is often carried out in traditional labs but is time 
+            consuming and prone to inaccuracies. Therefore, this paper aims to investigate the 
+            feasibility of implementing an Arduino-based sensor system for water quality monitoring
+          </p>
+          <p>
+            A simple prototype consisting of an aurdino and turbidity sensor was employed to conduct 
+            weekly onsite tests at multiple daily intervals. 
+            It was found that the system works reliably but is reliant on human assistance and prone to 
+            data inaccuracies. The system however, provides a solid foundation for future expansion 
+            works of the same category to elevate the system to being Internet of Things (IoT) friendly.
+          </p>
+          <h2 class="mb-4">Components Used</h2>
+          <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="components.png" alt="Image" />
+          <p>
+            
+            
+            1. Arduino UNO
+            <br>
+            2. Breadboard
+            <br>
+            3. I2C Converter
+            <br>
+            4. Jumper Wire
+            <br>
+            5. 16x2 LCD Display
+            <br>
+           
+          </p>
+          <br>
+          <br><br> <br><br><br>
+          <br>
+          <h3 class="mb-4">Conclusion</h3>
+          <img class="img-fluid rounded w-50 float-right ml-4 mb-3" src="conclusion.png" alt="conclusion" />
+          <p>
+             CASE 1:
+            When water is clear, maximum amount of light transmitted from the 
+            transmitter end of the turbidity sensor will reach the receiver end. This leads to 
+            large value of analog reading resulting in decrease of the mapped voltage 
+            value. Hence it displays that the water is clear. 
+            <br>
+            <br>
+             CASE2:
+            When water is cloudy, average amount of light transmitted from the 
+            transmitter end of the turbidity sensor will reach the receiver end. This leads to 
+            average value of analog reading resulting in medium mapped voltage value. 
+            Hence it displays that the water is cloudy.
+            <br>
+            <br>
+             CASE3:
+            When water is dirty, minimum amount of light transmitted from the 
+            transmitter end of the turbidity sensor will reach the receiver end. This leads to 
+            small value of analog reading resulting in incease of the mapped voltage 
+            value. Hence it displays that the water is dirty.
+          </p>
+        </div>
+        <br>
+
+
+        
+        <!-- Experience List -->
+        <div class="mb-5">
+          
+        </div>
+
+        <!--comment form-->
+        <div class="bg-light p-5">
+          <h2 class="mb-4"></h>
+        </div>
+      </div>
+      <hr>
+
+      <div class="col-lg-4 mt-5 mt-lg-0">
+        <!-- Author Bio -->
+        <div class="d-flex flex-column text-center bg-primary rounded mb-5 py-5 px-4">
+         
+          <h3 class="text-secondary mb-3">
+            </h3>
+         
+          <p class="text-white m-0">
+            <b>This Project was made by:</b>
+            <br>
+            1.Prapti Bargir
+            <br>
+            2.Arihant Bhamare
+            <br>
+            3.Nikhil Kolhe
+         </p>
+       </div>
+
+
+        <!-- Category List -->
+        <div class="mb-5">
+          
+          
+        </div>
+
+
+        <!-- Single Image -->
+        <div class="mb-5">
+          <img src="img/blog-1.jpg" alt="" class="img-fluid rounded" />
+        </div>
+
+        <!-- Related Post -->
+        <div class="mb-5 mx-n3">
+          <h2 class="mb-4 ml-3">Related PBL Projects</h2>
+          <div class="owl-carousel post-carousel position-relative">
+            <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden mx-3">
+              <img class="img-fluid" src="img/roboticarm.webp" style="width: 80px; height: 80px" />
+              <div class="pl-3">
+                <h5 class="">Robotic Arm</h5>
+                <div class="d-flex">
+                  <small class="mr-3"><i class="fa fa-user text-primary"></i> Shantanu</small>
+                  <small class="mr-3"><i class="fa fa-folder text-primary"></i> Robotic Arm</small>
+                  <small class="mr-3"><i class="fa fa-comments text-primary"></i> 1st</small>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden mx-3">
+              <img class="img-fluid" src="img/3d.jpg" style="width: 80px; height: 80px" />
+              <div class="pl-3">
+                <h5 class="">3D LED CUBE</h5>
+                <div class="d-flex">
+                  <small class="mr-3"><i class="fa fa-user text-primary"></i> Shruti</small>
+                  <small class="mr-3"><i class="fa fa-folder text-primary"></i> 3D LED CUBE</small>
+                  <small class="mr-3"><i class="fa fa-comments text-primary"></i> 2nd</small>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden mx-3">
+              <img class="img-fluid" src="img/firealarm.jpg" style="width: 80px; height: 80px" />
+              <div class="pl-3">
+                <h5 class="">Fire Alarming Robot</h5>
+                <div class="d-flex">
+                  <small class="mr-3"><i class="fa fa-user text-primary"></i> Sourabh</small>
+                  <small class="mr-3"><i class="fa fa-folder text-primary"></i>fire </small>
+                  <small class="mr-3"><i class="fa fa-comments text-primary"></i> 3rd</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Plain Text -->
+        <div>
+          <h2 class="mb-4">Welcome to Our College's Learning Environment</h2>
+          Our college provides a vibrant learning atmosphere where students can explore various fields of study, engage
+          in innovative projects,
+          and cultivate their skills for a successful future. We are committed to fostering academic excellence and
+          personal growth.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Detail End -->
+
+
+
+
+  
+</body>
+
+</html>
 
   <!-- Detail Start -->
   <div class="container py-5">
